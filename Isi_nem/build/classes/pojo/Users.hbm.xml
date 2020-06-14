@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 02.May.2020 03:58:39 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.Users" table="users" catalog="acmatik_db" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="username" type="string">
+            <column name="username" length="50" not-null="true" unique="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" not-null="true" />
+        </property>
+        <property name="time" type="timestamp">
+            <column name="time" length="19" not-null="true" />
+        </property>
+        <property name="mail" type="string">
+            <column name="mail" length="100" not-null="true" />
+        </property>
+        <property name="tel" type="string">
+            <column name="tel" length="12" not-null="true" />
+        </property>
+        <property name="sms" type="int">
+            <column name="sms" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26.Nis.2020, 04:12:18
+    Author     : shest
+*/
+
+//koyu renk : #2d3436
+//gri renk : #b2bec3
+
+.fon_rengi{
+    -fx-background-color: #2d3436;
+    }
+.hata_rengi{
+    -fx-text-fill: #d63031;
+}
+.basari_rengi{
+    -fx-text-fill: #55efc4;
+}
+.kayit_ol{
+    -fx-text-fill: #17c0eb;
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #17c0eb;
+}
+.kayit_ol:hover{
+    -fx-text-fill: azure;
+    -fx-border-color: azure;
+}
+.chart-title {
+  -fx-text-fill: #b2bec3;
+  -fx-font-size: 1.6em;
+}

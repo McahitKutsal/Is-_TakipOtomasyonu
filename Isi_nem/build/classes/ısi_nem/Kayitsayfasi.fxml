@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane id="AnchorPane" fx:id="ana" prefHeight="657.0" prefWidth="481.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="ısi_nem.KayitsayfasiController">
+   <children>
+      <AnchorPane prefHeight="652.0" prefWidth="478.0" styleClass="fon_rengi" stylesheets="@../style/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="608.0" prefWidth="481.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <StackPane maxHeight="150.0" prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="168.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@resim/entry.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="70.0" />
+                     </VBox.margin>
+                  </StackPane>
+                  <StackPane maxHeight="70.0" prefHeight="70.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="id" maxHeight="31.0" maxWidth="301.0" promptText="Ürün No...">
+                           <StackPane.margin>
+                              <Insets left="90.0" right="90.0" />
+                           </StackPane.margin>
+                        </TextField>
+                     </children>
+                  </StackPane>
+                  <StackPane maxHeight="70.0" prefHeight="70.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="e_posta" maxHeight="31.0" maxWidth="301.0" promptText="E-Posta...">
+                           <StackPane.margin>
+                              <Insets left="90.0" right="90.0" />
+                           </StackPane.margin>
+                        </TextField>
+                     </children>
+                  </StackPane>
+                  <StackPane maxHeight="71.0" prefHeight="71.0" prefWidth="481.0">
+                     <children>
+                        <TextField fx:id="telno" maxHeight="31.0" maxWidth="301.0" promptText="Telefon no...">
+                           <StackPane.margin>
+                              <Insets left="90.0" right="90.0" />
+                           </StackPane.margin>
+                        </TextField>
+                     </children>
+                  </StackPane>
+                  <StackPane maxHeight="70.0" prefHeight="70.0" prefWidth="200.0">
+                     <children>
+                        <PasswordField fx:id="sifre" maxHeight="31.0" maxWidth="301.0" promptText="Şifre">
+                           <StackPane.margin>
+                              <Insets left="90.0" right="90.0" />
+                           </StackPane.margin>
+                        </PasswordField>
+                     </children>
+                  </StackPane>
+                  <StackPane maxHeight="70.0" prefHeight="70.0" prefWidth="200.0">
+                     <children>
+                        <PasswordField fx:id="sifre_tekrar" maxHeight="31.0" maxWidth="301.0" promptText="Şifrenizi Onaylayınız">
+                           <StackPane.margin>
+                              <Insets left="90.0" right="90.0" />
+                           </StackPane.margin>
+                        </PasswordField>
+                     </children>
+                  </StackPane>
+                  <StackPane prefHeight="152.0" prefWidth="481.0">
+                     <children>
+                        <Label onMouseClicked="#geri_don_tıklandı" styleClass="kayit_ol" stylesheets="@../style/style.css" text="Geri Dön">
+                           <StackPane.margin>
+                              <Insets top="50.0" />
+                           </StackPane.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" onMouseClicked="#kayıt_butonuna_tıklandı" prefHeight="47.0" prefWidth="91.0" style="-fx-background-color: #303952; -fx-background-radius: 50px;" stylesheets="@../style/style.css" text="Kayıt Ol" textFill="#f2eded">
+                           <StackPane.margin>
+                              <Insets bottom="50.0" />
+                           </StackPane.margin>
+                        </Button>
+                     </children>
+                  </StackPane>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
