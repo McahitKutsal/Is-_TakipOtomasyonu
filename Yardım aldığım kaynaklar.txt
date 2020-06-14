@@ -1,0 +1,5 @@
+https://hibernate.org/
+https://www.javatpoint.com/hibernate-tutorial
+https://www.javatpoint.com/javafx-tutorial
+https://www.tutorialspoint.com/java/java_multithreading.htm
+https://www.oracle.com/java/technologies/javase/javafx-overview.html
